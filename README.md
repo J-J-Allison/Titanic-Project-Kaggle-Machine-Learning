@@ -1,6 +1,3 @@
-# Titanic-Project-Kaggle-Machine-Learning
-Attempting the Titanic Machine Learning Project.
-
 # 🚢 Titanic Survival Prediction — Kaggle Competition
 
 > **Final Kaggle Score: 0.77 (77% accuracy)**
@@ -11,19 +8,20 @@ A machine learning project tackling the classic [Kaggle Titanic competition](htt
 
 ## 📊 Results
 
-| Model | CV Score |
-|-------|----------|
-| Random Forest | GridSearch best |
-| Gradient Boosting | GridSearch best |
-| Extra Trees | GridSearch best |
-| XGBoost | GridSearch best |
-| SVC | GridSearch best |
-| Logistic Regression | GridSearch best |
-| KNN | GridSearch best |
-| AdaBoost | GridSearch best |
-| Decision Tree | GridSearch best |
-| Naive Bayes | GridSearch best |
-| **Voting Classifier (best)** | **0.77 on Kaggle** |
+| # | Model | Kaggle Score |
+|---|-------|--------------|
+| 1 | Random Forest | NaN |
+| 2 | Decision Tree | NaN |
+| 3 | KNN | NaN |
+| 4 | SVC | NaN |
+| 5 | Logistic Regression | NaN |
+| 6 | Naive Bayes | NaN |
+| 7 | XGBoost | NaN |
+| 8 | AdaBoost | NaN |
+| 9 | Extra Trees | NaN |
+| 10 | Gradient Boosting | NaN |
+| 11 | Voting Classifier 1 | NaN |
+| **12** | **Voting Classifier 2** | **0.77** |
 
 ---
 
@@ -86,6 +84,8 @@ All models were tuned via `GridSearchCV` or `RandomizedSearchCV` with stratified
 
 ```bash
 # Clone the repo
+git clone https://github.com/YOUR_USERNAME/titanic-prediction.git
+cd titanic-prediction
 
 # Install dependencies
 pip install pandas numpy scikit-learn xgboost seaborn matplotlib
@@ -130,3 +130,5 @@ Place `train.csv` and `test.csv` from the [Kaggle competition page](https://www.
 3. **Consistency matters** — applying identical transformations to train and test data via pipelines prevented data leakage and ensured reliable predictions.
 
 ---
+
+## 📜 License
